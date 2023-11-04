@@ -31,7 +31,7 @@ python-dotenv
 Streamlight
 ```
 
-   as of now and install it using the below command (don't forget to save the file)
+   - as of now and install it using the below command (don't forget to save the file)
 
 ```
 pip install -r requirements.txt
@@ -76,5 +76,19 @@ whenever it will be required.
      - Chatmodels with ChatOpenAI
      - Prompt Template + LLM + Output Parsers
 
+## Step5: Create a Streamlit Application
+- Creating streamlit application so that it can be easily deployed on `Huggingface space`
+- Create `app.py` file and write required code
+- Run `app.py` file using below command:
+```
+streamlit run app.py
+```
+- Check here in localhost system that the application is working fine or not.
+- If it is working then we can now deploy it to the `huggingface spaces`
+
+## step6:Deployement
+- I am going to deploy this application on `huggingface spaces`.
+- Firstly we need to login [https://huggingface.co/](https://huggingface.co/) and go to the `spaces`.
+- 
 ## APP DEMO  :+1:
 ![Alt text](doc_file/app_run.gif)
