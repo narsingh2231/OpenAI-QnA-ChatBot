@@ -89,6 +89,34 @@ streamlit run app.py
 ## step6:Deployement
 - I am going to deploy this application on `huggingface spaces`.
 - Firstly we need to login [https://huggingface.co/](https://huggingface.co/) and go to the `spaces`.
-- 
+- Click on `create new space`
+
+    <img src='doc_file/create_new_space.png'>
+
+- Now create a suited `space name` of the application as per format and select  `licence` and `UI framework` and `space hardware`.
+- This could be a `public` space as well as `private`, so choose according to your need.
+
+    <img src='doc_file/spaces.png'>
+
+- There are multiple paid hardware also availble but for my this simple project I am choosing Free version of hardware.
+- Click on create space. Once you created the space go to the `files` section of your space.
+  
+    <img src='doc_file/HF_app.png'> 
+
+- Upload `requirements.txt` file and `app.py` file here
+- It could be done through `cmd` but here  I am uplodaing manually.
+- As the `requirements.txt` file gets uploaded it will start installing all the required libraries on the server.
+- Now go to `settings` here next to the `files` and scroll up till the `Variables and secrets`.
+
+    <img src='doc_file/secret.png'> 
+
+- Here add your OpenAPI Key with same variable name being used to call in the `app.py` file.
+- Now The application is deployed and you can go to `app`. Your application will start here as below
+
+
+
+
 ## APP DEMO  :+1:
-![Alt text](doc_file/app_run.gif)
+
+
+  ![Alt text](doc_file/app_run.gif)
