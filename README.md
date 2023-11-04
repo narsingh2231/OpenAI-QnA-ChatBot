@@ -1,8 +1,10 @@
-# END to End LLM and LangChain Project
+# END to End LLM and LangChain Project  :tada: :tada: :tada:
 
-<img src='doc_file/openAI.png' width='150'><img src='https://huggingface.co/' width='150'><img src='doc_file/langchain.jpg' width='150'><img src='doc_file/Streamlit.png' width='150'>
+  <a href="https://platform.openai.com"><img src='doc_file/openAI.png' width='125'><a href="https://huggingface.co/"><img src="doc_file/Huggingface.png" width="150"><a href="https://www.langchain.com/"><img src='doc_file/langchain.jpg' width='150'><a href="https://streamlit.io/"><img src='doc_file/Streamlit.png' width='100'></a>
 
-### Step1: Create a virtual environment and activate the venv
+
+
+## Step1: Create a virtual environment and activate the venv
 
 - create a venv with the command below:
 
@@ -16,7 +18,7 @@ conda create -p venv python==3.9 -y
 conda activate venv\
 ```
 
-### Step2: create a `requirements.txt` file and install it
+## Step2: create a `requirements.txt` file and install it
 
 - write the libraries in this file that will be needed and can be installed altogether
 
@@ -26,8 +28,9 @@ langchain
 openai
 huggingface_hub
 python-dotenv
-streamlit
+Streamlight
 ```
+
    as of now and install it using the below command (don't forget to save the file)
 
 ```
@@ -48,18 +51,18 @@ whenever it will be required.
 
 - go to the page `https://platform.openai.com/login`
 - login or signup with your Contact and Email_ID
-- Go to API ![Alt text](doc_file/SelectAPI.png)
-
+- Go to API 
+            <img src='doc_file/SelectAPI.png' width='750'>
 - Go to your profile and select `view API key` from drop-down
 - click on `create new secret key` and name it or not, copy the key, and save it somewhere. So that can be found next time when required.
-![Alt text](doc_file/create_key.png)
+            <img src='doc_file/create_key.png' width='750'>
 
-### Create Hugging face API(access tokens)
-
-- Go to `hugging face` website
-- create an account and log in or signup
-- verify email first and then go to `settings` and `access tokens`
-- Create a new token and copy it.
+    ### Create Hugging face API(access tokens)
+    
+    - Go to `hugging face` website
+    - create an account and log in or signup
+    - verify email first and then go to `settings` and `access tokens`
+    - Create a new token and copy it.
 
 ## Step4: Experiments 
 - Create a python notebook file as `langchain.ipynb`, this is basically our notebook where we test our code and will be doing some experiments with both the LLM libraries.
@@ -73,5 +76,5 @@ whenever it will be required.
      - Chatmodels with ChatOpenAI
      - Prompt Template + LLM + Output Parsers
 
-## APP DEMO
+## APP DEMO  :+1:
 ![Alt text](doc_file/app_run.gif)
