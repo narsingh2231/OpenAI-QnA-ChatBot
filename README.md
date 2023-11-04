@@ -5,7 +5,7 @@
 - create a venv with the command below:
 
 ```
-conda create -p LLM python==3.9 -y
+conda create -p venv python==3.9 -y
 ```
 
 - activate the environment using the command below:
