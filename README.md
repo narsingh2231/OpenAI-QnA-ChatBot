@@ -1,5 +1,6 @@
 # END to End LLM and LangChain Project
-![image](docfile/openAI.png) <img width="50" height="50">
+
+<img src='doc_file/openAI.png' width='150'><img src='https://huggingface.co/' width='150'><img src='doc_file/langchain.jpg' width='150'><img src='doc_file/Streamlit.png' width='150'>
 
 ### Step1: Create a virtual environment and activate the venv
 
