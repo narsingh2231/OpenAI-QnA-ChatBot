@@ -1,4 +1,5 @@
 # END to End LLM and LangChain Project
+![image](https://your-image-url.type) with <img src="https://your-image-url.type" width="100" height="100">
 
 ### Step1: Create a virtual environment and activate the venv
 
